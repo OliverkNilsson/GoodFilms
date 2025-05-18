@@ -1,18 +1,76 @@
-# withRouter [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Do%20you%20wish%20that%20withRouter%20would%20rerender%20your%20component%20when%20your%20route%20changes?%20Now%20it%20can%20with%20the%20with-router%20NPM%20package!&url=https://github.com/CharlesStover/with-router&via=CharlesStover&hashtags=react,reactjs,javascript,webdev,webdeveloper,webdevelopment)
+# 🎬 GoodFilms
 
-A pub-sub alternative HOC to `react-router`'s `withRouter` HOC. It functions exactly the same way, except the wrapped component will re-render when the route changes. This is beneficial if your view changes depending on the current path.
+GoodFilms är en mobilapplikation byggd med React Native och Expo. Appen gör det möjligt att:
 
-[![version](https://img.shields.io/npm/v/with-router.svg)](https://www.npmjs.com/package/with-router)
-[![minified size](https://img.shields.io/bundlephobia/min/with-router.svg)](https://www.npmjs.com/package/with-router)
-[![minzipped size](https://img.shields.io/bundlephobia/minzip/with-router.svg)](https://www.npmjs.com/package/with-router)
-[![downloads](https://img.shields.io/npm/dt/with-router.svg)](https://www.npmjs.com/package/with-router)
-[![build](https://api.travis-ci.com/CharlesStover/with-router.svg)](https://travis-ci.com/CharlesStover/with-router/)
+- Spara filmer du sett
+- Betygsätta och kommentera dem
+- Se vad andra användare nyligen sett
 
-## Install
+Appen fokuserar på enkelhet och tydlighet – inspirerad av appar som Letterboxd och Goodreads men utan onödigt brus.
 
-* `npm install with-router --save` or
-* `yarn add with-router`
+---
 
-## Use
+## 🚀 Funktioner
 
-Use it the same way you would use `react-router`'s built-in `withRouter` HOC!
+- 🔐 **Autentisering:** Inloggning och registrering med e-post via Supabase
+- 🔍 **Sök:** Hitta filmer med TMDB:s sök-API
+- 📊 **Trending & Top Rated:** Upptäck populära filmer via TMDB
+- ➕ **Lägg till film:** Lägg till filmer med egen kommentar och betyg
+- 🎥 **Min lista:** Se dina sparade filmer
+- 👥 **Community Feed:** Se vad andra användare sett nyligen
+
+---
+
+## 🛠 Tekniker
+
+| Teknik             | Beskrivning                                                                 |
+|--------------------|-----------------------------------------------------------------------------|
+| **React Native**   | Används för att bygga mobilappen                                            |
+| **Expo**           | Gör utvecklingen enklare och möjliggör APK-build via EAS                    |
+| **Expo Router**    | Filbaserad routing för enkel navigering                                     |
+| **Supabase**       | Open-source backend med autentisering och PostgreSQL-baserad databas        |
+| **TMDB API**       | Hämtar filmdata som titel, betyg och poster                                 |
+| **EAS Build**      | Bygger produktionsklara APK-filer i molnet via Expo                         |
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/oliverhhh/GoodFilms.git
+cd GoodFilms
+npm install
+npx expo start
+
+---
+
+## 🧪 Testad på
+
+- ✅ Android (APK via EAS Build)  
+- ❌ iOS (inte testad)
+
+---
+
+## 🔗 Länkar & Dokumentation
+
+- 📘 [TMDB API Docs](https://developer.themoviedb.org/docs)
+- 🔐 [Supabase Docs](https://supabase.com/docs)
+- ⚙️ [Expo Docs](https://docs.expo.dev)
+- 📦 [EAS Build](https://docs.expo.dev/eas)
+
+---
+
+## 👨‍💻 Utvecklare
+
+**Oliver Nilsson**  
+Byggt som examensprojekt inom Javautveckling  
+[GitHub: @oliverhhh](https://github.com/oliverhhh)
+
+---
+
+## 📦 APK-distribution
+
+Appen är byggd med EAS Build och kan installeras manuellt via APK.  
+APK-filen delas separat via t.ex. e-post eller länk.
+
+---

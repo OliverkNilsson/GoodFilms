@@ -1,0 +1,12 @@
+node_modules
+.git
+android/.gradle
+android/app/build
+ios/Pods
+.expo
+.expo-shared
+.vscode
+.DS_Store
+Thumbs.db
+*.apk
+*.aab
