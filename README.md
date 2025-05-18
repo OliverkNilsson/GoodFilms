@@ -64,7 +64,7 @@ npx expo start
 
 **Oliver Nilsson**  
 Byggt som examensprojekt inom Javautveckling  
-[GitHub: @oliverhhh](https://github.com/oliverhhh)
+[GitHub: @oliverknilsson](https://github.com/oliverknilsson)
 
 ---
 
