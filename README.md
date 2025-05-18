@@ -1,4 +1,4 @@
-# 🎬 GoodFilms
+# GoodFilms
 
 GoodFilms är en mobilapplikation byggd med React Native och Expo. Appen gör det möjligt att:
 
@@ -10,14 +10,14 @@ Appen fokuserar på enkelhet och tydlighet – inspirerad av appar som Letterbox
 
 ---
 
-## 🚀 Funktioner
+## Funktioner
 
-- 🔐 **Autentisering:** Inloggning och registrering med e-post via Supabase
-- 🔍 **Sök:** Hitta filmer med TMDB:s sök-API
-- 📊 **Trending & Top Rated:** Upptäck populära filmer via TMDB
-- ➕ **Lägg till film:** Lägg till filmer med egen kommentar och betyg
-- 🎥 **Min lista:** Se dina sparade filmer
-- 👥 **Community Feed:** Se vad andra användare sett nyligen
+- **Autentisering:** Inloggning och registrering med e-post via Supabase
+- **Sök:** Hitta filmer med TMDB:s sök-API
+- **Trending & Top Rated:** Upptäck populära filmer via TMDB
+- **Lägg till film:** Lägg till filmer med egen kommentar och betyg
+- **Min lista:** Se dina sparade filmer
+- **Community Feed:** Se vad andra användare sett nyligen
 
 ---
 
@@ -34,7 +34,7 @@ Appen fokuserar på enkelhet och tydlighet – inspirerad av appar som Letterbox
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/oliverhhh/GoodFilms.git
@@ -44,23 +44,23 @@ npx expo start
 
 ---
 
-## 🧪 Testad på
+## Testad på
 
-- ✅ Android (APK via EAS Build)  
-- ❌ iOS (inte testad)
-
----
-
-## 🔗 Länkar & Dokumentation
-
-- 📘 [TMDB API Docs](https://developer.themoviedb.org/docs)
-- 🔐 [Supabase Docs](https://supabase.com/docs)
-- ⚙️ [Expo Docs](https://docs.expo.dev)
-- 📦 [EAS Build](https://docs.expo.dev/eas)
+- Android (APK via EAS Build)  
+- iOS (inte testad)
 
 ---
 
-## 👨‍💻 Utvecklare
+## Länkar & Dokumentation
+
+- [TMDB API Docs](https://developer.themoviedb.org/docs)
+- [Supabase Docs](https://supabase.com/docs)
+- [Expo Docs](https://docs.expo.dev)
+- [EAS Build](https://docs.expo.dev/eas)
+
+---
+
+## Utvecklare
 
 **Oliver Nilsson**  
 Byggt som examensprojekt inom Javautveckling  
@@ -68,7 +68,7 @@ Byggt som examensprojekt inom Javautveckling
 
 ---
 
-## 📦 APK-distribution
+## APK-distribution
 
 Appen är byggd med EAS Build och kan installeras manuellt via APK.  
 APK-filen delas separat via t.ex. e-post eller länk.
